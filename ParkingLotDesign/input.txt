@@ -1,0 +1,16 @@
+Requirements - 
+1. Vehicle Will Come At EntryGate (Class)
+2. Vehicle is a class (There can be multiple types of vehicles)
+3. At Entry Gate Vehicle Gets a Ticket (Class)
+4. Also Get a ParkingSlot (Class, there can be multiple types of ParkingSlot)
+5. Park the Vehicle
+6. Vehicles Leaves the place via ExitGate (Class)
+7. Bill is Calcluated at Exit gate. Here CalculateBill (Class.)
+
+There can be multiples parkingSlots of multiples types - 
+like 2 wheeler Slot, 4- wheeler Slot etc. 
+
+Also Since we have many parkingSlots , So to manage those we will have a 
+ParkingManager Class also, that will hold the List of Slots. 
+
+Also there can be multiples Pricing Statergies like (Hourly,Monthly, YEarly)

@@ -2,7 +2,7 @@ package ParkingLotDesign.ParkingSlot;
 
 import ParkingLotDesign.Vehicle.Vehicle;
 
-public class TwoWheelerSlot implements ParkingSlot {
+public class FourWheelerSlot implements ParkingSlot {
 
     public static final int SLOT_PRICE = 40;
 
@@ -11,7 +11,6 @@ public class TwoWheelerSlot implements ParkingSlot {
 
     @Override
     public void ParkVehicle(Vehicle vehicle) {
-        // TODO Auto-generated method stub
        this.parkedVehicle = vehicle;
     }
 

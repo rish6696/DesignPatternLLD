@@ -14,3 +14,5 @@ Also Since we have many parkingSlots , So to manage those we will have a
 ParkingManager Class also, that will hold the List of Slots. 
 
 Also there can be multiples Pricing Statergies like (Hourly,Monthly, YEarly)
+So Parking Manager will have a parking statergy also. (Statergy Pattern comes into picture here)
+
